@@ -1,0 +1,25 @@
+.my-input-control {
+    height: 15%;
+    width: 25vw;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #5A5B62;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 3px solid #EDEDED;
+    border-radius: .25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 25%;
+}
+
+.my-col{
+    padding-left: 37%;
+    padding-top: 4%;
+    
+}
+.my-body{
+    background-image:url("/assets/images/Background.png");
+    background-size: 100%;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>CreateTask1</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/TeacherStartPage.css">
+    </head>
+    <body class="myBody">
+        <div class="tab">
+            <button class="tablinks" onclick="openPage(event, 'Tasks')">Задания</button>
+            <button class="tablinks" onclick="openPage(event, 'Classes')">Класс</button>
+            <button class="tablinks" onclick="openPage(event, 'Results')">Результаты</button>
+          </div>
+          
+          <div id="Tasks" class="tabcontent">
+            <div class="wrapperTest">
+                <div class = "testElement">
+                    <h1 class="textTest">Пустой тест</h1>
+                    <div class="testIcon"></div>
+                </div>
+                <div class = "testElement">
+                    <h1 class="textTest">Пустой тест1</h1>
+                    <div class="testIcon"></div>
+                </div>
+                <div class = "testElement">
+                    <h1 class="textTest">Пустой тест2</h1>
+                    <div class="testIcon"></div>
+                </div>
+                <div class = "testElement">
+                    <h1 class="textTest">Пустой тест3</h1>
+                    <div class="testIcon"><div class="textTest">+</div> </div>
+                </div>
+
+            </div>
+
+          </div>
+          
+          <div id="Classes" class="tabcontent">
+            <p>Текст2</p>
+          </div>
+          
+          <div id="Results" class="tabcontent">
+            <div class="wrapperResult">
+                <div class="wrapperRes">
+                    <p>
+                        <span class="textTest">Никита Козлов</span>
+                        <span class="textRes">20/30</span>
+                    </p>
+                    <button class="resButton">Проверить</button>
+                </div>
+            </div>
+          </div>
+          
+          <script>
+          function openPage(evt, cityName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " active";
+          }
+          </script>
+    </body>
+</html>

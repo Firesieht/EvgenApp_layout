@@ -1,0 +1,98 @@
+.tab {
+    overflow: hidden;
+    background: #2C2C2C;
+
+}
+
+.tab button {
+    background: #2C2C2C;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.5vw 6vw;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #C7C7C7;
+    border: 1px solid  #2C2C2C;
+    border-right:2px solid  #3E3E3E;
+
+}
+
+.tab button:hover {
+    background: #111111;
+}
+
+.tab button.active {
+    color: white;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+
+}
+
+.testElement{
+    width:40vw;
+    min-width: 450px;
+    max-width: 600px;
+}
+.myBody{
+    padding: none;
+    margin:0;
+    background: #F4F4F4;
+}
+.wrapperTest{
+    display: flex;
+    flex-wrap:wrap;
+    gap:1vw
+
+}
+.testIcon{
+    background: #FFFFFF;
+    border-radius: 1vw;
+    width:25vw;
+    height: 16vw;
+    
+    text-align: center;
+}
+.textTest{
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 2.3vw;
+}
+.wrapperRes{
+    border:none;
+    border-bottom: 0.4vw solid #E8E8E8; 
+    border: 5vw;
+    display: flex;
+    flex-wrap:wrap;
+
+}
+.textRes{
+    padding-left: 4vw;
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #56575C;
+}
+.resButton{
+    margin-top: 1vw;
+    border:none;
+    background: #579AFF;
+    border-radius: 0.5vw;
+    color:white;
+    width: 8vw;
+    height: 2.5vw;
+
+}
+.resButton:hover{
+    background: #90bcff;
+}
+.resButton:active{
+    background: #297af3;
+
+}

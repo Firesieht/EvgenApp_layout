@@ -57,7 +57,7 @@
     text-align: center;
 }
 .textTest{
-    margin-left: 10vw;
+    margin-left: 5vw;
     font-family: 'Sora', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -81,7 +81,7 @@
 }
 .resButton{
     margin-top: 1vw;
-    margin-left: 5vw;
+    margin-left: 50vw;
     border:none;
     background: #579AFF;
     border-radius: 0.5vw;

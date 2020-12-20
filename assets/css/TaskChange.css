@@ -1,0 +1,70 @@
+.MyWrapper{
+    padding-left: 10vw;
+    padding-top: 5vw;
+    display: flex;
+    flex-wrap:wrap;
+    gap:1vw
+}
+
+
+.myBody{
+    padding: none;
+    margin:0;
+    background: #F4F4F4;
+}
+
+.MyInput{
+    margin-left: 5vw;
+    width: 75%;
+    border:none;
+    background: #FFFFFF;
+    border-radius: 0.4vw;
+    font-family: 'Sora', sans-serif;    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 3vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #858585;
+
+}
+
+.MyInput:active{
+    outline:none;
+}
+
+.NumList{
+    border-radius: 0.4vw;
+    font-family: 'Sora', sans-serif;    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 3vw;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.PlusBtn{
+    width: 84.5%;
+    border:none;
+    background: #FFFFFF;
+    border-radius: 0.4vw;
+    font-family: 'Sora', sans-serif;    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 3vw;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #858585;
+
+}

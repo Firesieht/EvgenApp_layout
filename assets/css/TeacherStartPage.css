@@ -35,7 +35,7 @@
 .testElement{
     width:40vw;
     min-width: 450px;
-    max-width: 600px;
+    max-width: 450px;
 }
 .myBody{
     padding: none;
@@ -57,6 +57,7 @@
     text-align: center;
 }
 .textTest{
+    margin-left: 10vw;
     font-family: 'Sora', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -65,8 +66,7 @@
 }
 .wrapperRes{
     border:none;
-    border-bottom: 0.4vw solid #E8E8E8; 
-    border: 5vw;
+    border-bottom: 0.5vw solid #E8E8E8; 
     display: flex;
     flex-wrap:wrap;
 
@@ -81,6 +81,7 @@
 }
 .resButton{
     margin-top: 1vw;
+    margin-left: 5vw;
     border:none;
     background: #579AFF;
     border-radius: 0.5vw;

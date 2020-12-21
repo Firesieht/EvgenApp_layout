@@ -1,0 +1,73 @@
+.CenterDiv{
+    padding-top:5vw;
+    display: flex;
+    align-items:center; 
+    justify-content:center;
+}
+
+.wrapper{
+    display: grid;
+    align-items:center; 
+    justify-content:center;
+}
+
+.myBody{
+    padding: none;
+    margin:0;
+    background: #ffffff;
+}
+.stepSelection{
+    margin-left: 2vw;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 0.4vw;
+    font-family: 'Sora', sans-serif;    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 3vw;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    letter-spacing: 0.01em;
+    background: #ffffff;
+    border: 1px solid #CECECE;
+    box-sizing: border-box;
+    border-radius: 1vw;
+}
+
+.stepSelection:hover{
+    border: 1px solid #92beff;
+
+}
+
+.stepSelection:active{
+    border: 2px solid #579AFF;
+
+}
+
+.resumeBtn{
+    display: flex;
+    align-items:center; 
+    justify-content:center;
+
+    margin-top:5%;
+
+    margin-left: 49%;
+
+    border:none;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 2vw;
+    background: #CECECE;
+}
+
+.resumeBtn:hover{
+    background: #c2c2c2;
+}
+
+.resumeBtn:active{
+    background: #eeeeee;
+
+}

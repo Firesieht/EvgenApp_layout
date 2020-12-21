@@ -25,7 +25,7 @@
 
     color: #000000;
 }
-
+/* 
 
 .ClassDiv{
     margin-top: 1vw;
@@ -43,10 +43,10 @@
     text-align: center;
     letter-spacing: 0.01em;
     background: #ffffff;
-}
+} */
 
 .ClassBtn{
-    width: 100%;
+    width: 30vw;
     border:none;
     margin-top: 1vw;
     border-radius: 0.4vw;
